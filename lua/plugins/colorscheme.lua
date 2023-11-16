@@ -1,27 +1,43 @@
 --TokyoNight
 return {
   {
-    "folke/tokyonight.nvim",
+    "bshephar/tokyonight.nvim",
+    lazy = false,
     opts = {
-      style = "moon",
+      style = "night",
       transparent = true,
       styles = {
-        sidebars = "transparent",
-        floats = "transparent",
+        sidebars = "darker",
+        floats = "dark",
       },
     },
   },
 }
 
--- Catppuccin
+-- Kanagawa
+--return {
+--  "rebelot/kanagawa.nvim",
+--  lazy = true,
+--  name = "kanagawa",
+--  opts = {
+--    theme = "wave",
+--    background = {
+--      dark = "wave",
+--      light = "lotus",
+--    },
+--    transparent = false,
+--  },
+--}
+
+---- Catppuccin
 --return {
 --  "catppuccin/nvim",
 --  lazy = true,
 --  name = "catppuccin",
 --  opts = {
---    -- flavor = "macchiato",
---    flavor = "mocha",
---    transparent_background = true,
+--    flavor = "macchiato",
+--    -- flavor = "mocha",
+--    transparent_background = false,
 --    integrations = {
 --      aerial = true,
 --      alpha = true,
