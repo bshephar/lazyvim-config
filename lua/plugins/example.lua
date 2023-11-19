@@ -153,7 +153,7 @@ return {
         "tsx",
         "typescript",
         "vim",
-        "yaml",
+        -- "yaml",
         "go",
         "rust",
       },
