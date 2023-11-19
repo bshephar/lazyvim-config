@@ -5,7 +5,7 @@ return {
     lazy = false,
     opts = {
       style = "night",
-      transparent = true,
+      transparent = false,
       styles = {
         sidebars = "darker",
         floats = "dark",
